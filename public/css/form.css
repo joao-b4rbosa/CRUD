@@ -1,0 +1,31 @@
+.form-centro{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos do formulário em coluna */
+}
+  
+label {
+    margin-bottom: 5px; /* Adiciona espaçamento inferior às etiquetas */
+}
+  
+input, button {
+    margin-bottom: 10px; /* Adiciona espaçamento inferior aos campos de entrada e ao botão */
+    padding: 10px; /* Adiciona espaçamento interno aos campos de entrada e ao botão */
+}
+  
+button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para a forma de mão ao passar sobre o botão */
+}
+  
+button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o cursor sobre ele */
+}

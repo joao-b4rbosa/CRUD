@@ -1,0 +1,66 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px; /* Espaço entre os cards */
+  }
+  
+  .card {
+    width: 200px; /* Largura do card */
+    padding: 10px; /* Espaçamento interno do card */
+    background-color: #f9f9f9; /* Cor de fundo do card */
+    border: 1px solid #ddd; /* Borda do card */
+    color: black;
+  }
+  
+  .card img {
+    height: 150px; /* Altura da imagem do card */
+    object-fit: cover; /* Ajuste da imagem para preencher o espaço */
+  }
+
+  .img-centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .nome {
+    /* Estilos para o nome do produto */
+    text-align: center;
+    color: black;
+  }
+  
+  .quantidade {
+    /* Estilos para a quantidade do produto */
+    text-align: center;
+    color: black;
+  }
+
+  .links{
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .a-links{
+    color: black;
+  }
+
+  @media (max-width: 600px) {
+    .cards-container {
+      flex-wrap: wrap; /* Quebrar os cards em várias linhas */
+    }
+  
+    .card {
+      width: 100%; /* Largura de 100% para ocupar todo o espaço disponível */
+      margin-bottom: 20px; /* Espaçamento inferior entre os cards */
+    }
+  }

@@ -1,0 +1,118 @@
+/* @import url('https://fonts.googleapis.com/css?family=NOME_DA_FONTE'); */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    /* font-family: "NOME_DA_FONTE", sans-serif; */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 224px); /* Ajuste a altura do container para deixar espaço para o footer */
+  }
+  
+  .content {
+    flex: 1;
+    /* Estilo para o conteúdo principal */
+    background-color: rgb(236, 232, 226);
+  }
+  
+  .footer {
+    /* Estilo para o footer */
+    background-color: #1A1A1A;
+    padding: 20px;
+  }
+  
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+
+img{
+    height: 180px;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+    gap: 20px;
+}
+
+i{
+    color: blueviolet;
+}
+
+
+/* conteudo */
+.titulo{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.linha-centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linha{
+  border: 1px solid black;
+  width: 400px;
+
+}
+
+
+
+
+
+/* footer */
+a,p{
+    text-align: end;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8a2be2; /* Cor de fundo da barra de rolagem (roxo) */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Cor de fundo da área de trilha da barra de rolagem */
+  }
+  
+  /* Estilizando o "botão" da barra de rolagem (seta para cima/para baixo) */
+  ::-webkit-scrollbar-button {
+    background-color: #8a2be2; /* Cor de fundo do botão (roxo) */
+  }
+  
+  /* Estilizando a "alça" da barra de rolagem (parte que pode ser arrastada) */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #6b238e; /* Cor de fundo da barra de rolagem ao passar o mouse (roxo mais escuro) */
+  }
+  
+  /* Estilizando a área de trilha da barra de rolagem */
+  ::-webkit-scrollbar-track:hover {
+    background-color: #eaeaea; /* Cor de fundo da área de trilha da barra de rolagem ao passar o mouse */
+  }
+  
+  /* Estilizando o "botão" da barra de rolagem ao passar o mouse */
+  ::-webkit-scrollbar-button:hover {
+    background-color: #6b238e; /* Cor de fundo do botão ao passar o mouse (roxo mais escuro) */
+  }
+  
+  
