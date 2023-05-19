@@ -1,4 +1,4 @@
-# Controle-De-Estoque
+# CRUD
 🏋️‍♀️ - Treinamento de CRUD, rotas, e sessões e hashs no login
 
 🎥 - video para melhor demonstração do projeto
